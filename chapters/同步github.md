@@ -12,7 +12,11 @@
 
 1. 设置github的权限
 
-  - 进入gitbook的设置页面`https://www.gitbook.com/@{{UserName}}/settings`
+  - 进入gitbook的设置页面
+
+    ```shell
+    https://www.gitbook.com/@{{UserName}}/settings
+    ```
 
   - 找到"GitHub"的面板（往下拉倒数第三个）选择"with access to publich repositories"。
 
@@ -20,7 +24,11 @@
 
 2. 连接github上的项目地址（前提是已经在github上创建了相应的项目）
 
-  - 进入github对应项目的设置页面`https://www.gitbook.com/book/l{{UserName}}/{{Book}}/settings/github`
+  - 进入github对应项目的设置页面
+
+    ```shell
+    https://www.gitbook.com/book/l{{UserName}}/{{Book}}/settings/github
+    ```
 
   - 在"GitHub Repository"面板中填入`UserName/repo`。UserName为github用户名；rep为需要同步到github上的项目。比如在github上也创建了一个名为"try-gitbook"的项目，我的用户名为"lovedlyl"，这里就应该天`lovedlyl/try-gitbook`。
 
